@@ -2,3 +2,4 @@ name: "My CodeQL config"
 
 paths:
   - '**/.hidden'
+  - '.hidden'
