@@ -19,7 +19,7 @@ on:
   workflow_dispatch:
     inputs:
       additional_paths:
-        description: " Comma seperated paths besides root for codeql to scan. Example: 'dir1','dir2','hiddendir' "
+        description: " Comma seperated paths besides root for codeql to scan. Example: 'dir1','dir2','.hiddendir' "
         required: false
 
 jobs:
