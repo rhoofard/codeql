@@ -39,7 +39,7 @@ jobs:
       uses: github/codeql-action/init@v3
       with: 
         config: |
-          paths: ['*',${{ inputs.additional_paths }}]
+          paths: [${{ inputs.additional_paths }}]
 
 
     - name: Perform CodeQL Analysis
